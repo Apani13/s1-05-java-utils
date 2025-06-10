@@ -1,0 +1,17 @@
+D - level01 - 2025-06-10 11:15:55
+ D - exercise1 - 2025-06-10 13:04:15
+  F - DirectoryLister.java - 2025-06-10 11:16:09
+  F - Main.java - 2025-06-10 11:16:09
+ D - exercise2 - 2025-06-10 14:10:11
+  F - Main.java - 2025-06-10 14:10:11
+  F - RecursiveDirectoryLister.java - 2025-06-10 13:48:31
+ D - exercise3 - 2025-06-10 11:50:03
+  F - DirectoryToFileWriter.java - 2025-06-10 11:16:09
+  F - Main.java - 2025-06-10 11:50:03
+ D - exercise4 - 2025-06-10 11:50:03
+  F - Main.java - 2025-06-10 11:50:03
+  F - TxtFileReader.java - 2025-06-10 11:50:03
+ D - exercise5 - 2025-06-10 11:50:03
+  F - Main.java - 2025-06-10 11:50:03
+  F - Person.java - 2025-06-10 11:50:03
+  F - Serializer.java - 2025-06-10 11:50:03
