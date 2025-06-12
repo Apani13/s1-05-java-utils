@@ -22,7 +22,6 @@ public class Person implements Serializable {
         return this.age;
     }
 
-    //Saber si esto es necesario para lo que pide el ejercicio
     @Override
 
     public String toString() {
