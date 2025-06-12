@@ -17,12 +17,19 @@ public class Serializer {
     public static void deserializePerson(String filePath) {
         try (ObjectInputStream in = new ObjectInputStream(new FileInputStream(filePath))) {
             Person person = (Person) in.readObject();
-            System.out.println("Deserialized Person:");
-            System.out.println(person.toString());
 
-            //separar las excepciones para que devuelvan mensajes diferentes
-        } catch (IOException | ClassNotFoundException e) {
-            System.out.println("Error deserializing object");
+            if (person != null) {
+                System.out.println("Deserialized Person:");
+                System.out.println(person);
+            } else {
+                System.out.println("No person was deserialized.");
+            }
+
+        } catch (IOException e) {
+            System.out.println("Error deserializing object from file: " + filePath);
+            e.printStackTrace();
+        } catch (ClassNotFoundException e) {
+            System.out.println("Error deserializing object, class not found");
             e.printStackTrace();
         }
     }
